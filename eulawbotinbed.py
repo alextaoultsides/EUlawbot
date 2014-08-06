@@ -22,4 +22,4 @@ for j in range(1):
     
     print str(results[0].GetText()) + "in bed!"
     print len(str(results[0].GetText()))
-    api.PostUpdate(str(results[0].GetText()) + " in bed!")
+    api.PostUpdate(str(results[0].GetText()) + " in bed!")#posts to EULAWBOTINBED Twitter page
